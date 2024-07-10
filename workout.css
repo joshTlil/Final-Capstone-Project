@@ -1,0 +1,65 @@
+body{
+    background-color: #1a1a1a;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+
+.title-header{
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.title-header h1{
+    margin: 0;
+}  
+
+
+#logout{
+        
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 23px;
+    margin-bottom: 15px;
+    
+}
+
+#logout:hover{
+    background-color: #0056b3;
+}
+
+
+#exerciseImageContainer img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#descriptions {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#diet h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+#diet p {
+    color: white;
+    text-align: center;
+}
